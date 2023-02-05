@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+/**
+ * main - main entry
+ * Discription: Using if...else statements to grant permission
+ * Return 0 Always
+*/
+int main(void)
+{
+     char colour;
+    printf("Enter a colour : ");
+    scanf("%c", &colour);
+    
+    if (colour == 'green')
+    {
+        printf("Access granted. \n");
+    }
+    else
+    {
+        printf("Access denied. \n");
+    }
+    return 0;
+}
