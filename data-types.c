@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - main entry 
- * Description: get the prompt from the user 
+ * main-main entry 
+ * DEscription: get the prompt from the user 
  * Return: Always 0 success
  */
-int main (void)
+int main(void)
 {
 int a, b;
 printf(" Enter first number: ");
