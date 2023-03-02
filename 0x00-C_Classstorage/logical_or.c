@@ -8,7 +8,7 @@ int main(void)
 {
   int a = 5;
   int b = 5;
-  if ((a == b) || (b == a))
+  if ((a = b) || (b = a))
     {
       printf("It is true\n ");
     }
