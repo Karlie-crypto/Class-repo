@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
  * main - main entry
- * Description: checking the output if both statements is true
- * REturn 0 Always success
+ * Description: To see if both statements are true
+ * Return: Always 0 sucess
  */
 int main(void)
 {
-  int a, b;
+  int a = 100, b = 400;
   if (a < b && a != b)
     {
       printf("It is true ");
@@ -17,5 +17,5 @@ int main(void)
     }
 
   return (0);
+}
 
-} 
