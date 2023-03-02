@@ -1,0 +1,17 @@
+#include <stdio.h>
+/**
+ * main - main entry
+ * Description: Checking if the statement is true or false using logical not operator 
+ * Return: Always 0 success
+ */
+int main(void)
+{
+  int a, b;
+  a = 0;
+  b = 1;
+  printf("%d", a && b);
+  return (0);
+}  
+
+
+ 
