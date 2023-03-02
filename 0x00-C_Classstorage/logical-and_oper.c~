@@ -1,0 +1,21 @@
+#include <stdio.h>
+/**
+ * main - main entry
+ * Description: checking the output if both statements is true
+ * REturn 0 Always success
+ */
+int main(void)
+{
+  int a, b;
+  if (a < b && a != b)
+    {
+      printf("It is true ");
+    }
+  else
+    {
+      printf("It is false ");
+    }
+
+  return (0);
+
+} 
